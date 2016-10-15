@@ -14,6 +14,8 @@ namespace Principal
     
     public partial class usuario
     {
+        backuprojEntities db = new backuprojEntities();
+
         public usuario()
         {
             this.usuariorepositorios = new HashSet<usuariorepositorio>();
