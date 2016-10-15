@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="29735a97508d449dacf45e9eebe0dc6f" Name="Diagram1">
+        <EntityTypeShape EntityType="backuprojModel.almacenamiento" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.archivo" Width="1.5" PointX="7.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.configuracion" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.directorio" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.movimiento" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.registro" Width="1.5" PointX="7.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.repositorio" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.respaldo" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.tipomovimiento" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.tipousuario" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.usuario" Width="1.5" PointX="8.25" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="backuprojModel.usuariorepositorio" Width="1.5" PointX="10.5" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="backuprojModel.fk_Almacenamiento_Configuracion1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Archivo_Directorio1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Configuracion_Respaldo1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Directorio_Configuracion1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Repositorio_Configuracion1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Movimiento_Repositorio1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Movimiento_TipoMovimiento1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_Registro_Repositorio1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_UsuarioRepositorio_Repositorio1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_UsuarioRepositorio_TipoUsuario1" ManuallyRouted="false" />
+        <AssociationConnector Association="backuprojModel.fk_UsuarioRepositorio_Usuario1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
