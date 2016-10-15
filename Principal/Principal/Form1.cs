@@ -19,7 +19,7 @@ namespace Principal
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Es una prueba de sincronizacion");
+            MessageBox.Show("Es sgmslkgskñdfgjñkuna prueba de sincronizacion");
         }
     }
 }
